@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    position: relative;
+    background-color: #c6b9b0;
+}
+
+.hero img{
+    width: 100%;
+}
+
+.hero p {
+    position: absolute;
+    color: #fcf5f2;
+    top: 50%;
+    left: 50%;
+    -ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+
+    font-family: ヒラギノ明朝 ProN;
+    font-size: 3vw;
+}
+
+
+#beans{
+    margin: auto;
+    padding: 100px 0px;
+    background-color: #c6b9b0;
+    
+}
+
+h1{
+    font-family: ヒラギノ明朝 ProN;
+    color: #331804;
+    margin-bottom: 100px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 3vw;
+}
+
+.container{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.beans{
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bean{
+    width: 30%;
+    position:relative;  
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.bean img{
+    width:50%;
+}
+
+.index{
+    position:absolute;
+    text-align: center;
+    width: 90%;
+    color: #fcf5f2;
+
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+
+    font-family: ヒラギノ角ゴStd W8;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+
+#one{
+    background-color: #fcf5f2;
+
+}
+
+.title{
+    display: block;
+    padding: 100px 0px;
+    text-align: center;
+    
+
+}
+
+
+num{
+    font-family: ヒラギノ角ゴStd W8;
+    font-weight: bold;
+    font-size: 2em;
+    color: #261441;
+}
+
+p{
+    font-family: ヒラギノ明朝 ProN;
+    font-size: 2.5vw;
+    color: #261441;
+}
+
+
+
+
+.drink{
+    width: 25%;
+    text-align: center;
+    padding: 0 2vw;
+}
+
+.drink img{
+    width: 60%;
+    padding: 5vh 0;
+}
+
+
+.name{
+    font-family: ヒラギノ明朝 ProN;
+    font-weight: bold;
+    font-size: 2vw;
+    color:#261441;
+    margin-bottom: 5px;
+}
+
+.eng{
+    font-family: クレー;
+    font-size: 1.5vw;
+    color:#261441;
+}
+
+.detail{
+    text-align: left;
+    color:#261441;
+    font-size: 1.8vw;
+}
