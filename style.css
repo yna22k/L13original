@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+/*ヒーロー画像*/
 .hero{
     position: relative;
     background-color: #c6b9b0;
@@ -28,6 +30,9 @@
 }
 
 
+
+/*豆知識*/
+
 #beans{
     margin: auto;
     padding: 100px 0px;
@@ -44,11 +49,9 @@ h1{
     font-size: 3vw;
 }
 
-.container{
-    display: inline-flex;
-    justify-content: center;
-}
 
+
+/*豆のdiv*/
 .beans{
     display: inline-flex;
     justify-content: center;
@@ -56,7 +59,7 @@ h1{
 }
 
 .bean{
-    width: 30%;
+    width: 30vw;
     position:relative;  
     text-align: center;
     margin: 50px 0px;
@@ -84,40 +87,47 @@ h1{
 }
 
 
-#one{
-    background-color: #fcf5f2;
 
+/*セクションタイトル*/
+#number{
+    background-color: #fcf5f2;
 }
 
 .title{
     display: block;
     padding: 100px 0px;
-    text-align: center;
-    
-
+    margin-left: 10vw;
 }
 
 
 num{
     font-family: ヒラギノ角ゴStd W8;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 4vw;
     color: #261441;
 }
 
 p{
     font-family: ヒラギノ明朝 ProN;
-    font-size: 2.5vw;
+    font-size: 2.3vw;
     color: #261441;
 }
 
 
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+
+/*ドリンクのdiv*/
 .drink{
     width: 25%;
     text-align: center;
-    padding: 0 2vw;
+    margin: 4vh 4vw;
 }
 
 .drink img{
@@ -129,19 +139,69 @@ p{
 .name{
     font-family: ヒラギノ明朝 ProN;
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 1.8vw;
     color:#261441;
     margin-bottom: 5px;
 }
 
 .eng{
     font-family: クレー;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     color:#261441;
 }
 
 .detail{
     text-align: left;
     color:#261441;
+    font-size: 1.5vw;
+}
+
+
+.espdrip{
+    height: 30vw;
+    margin-right: 8vw;
+}
+
+.text{
+    text-align: center;
+    font-family: クレー;
+    font-size: 1.5vw;
+    color:#261441;
+    line-height: 3em;
+}
+
+
+.art-box{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #331804;
+    border-radius: 2vw;
+    margin: 10vh auto 0;
+    padding: 3vw;
+}
+
+.art-box img{
+    width: 25vw;
+}
+
+.art-name{
+    font-family: クレー;
+    color:#261441;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+.latte-art{
+    width: 40vw;
+    margin-left: 5vw;
+}
+
+.art-detail{
+    text-align: left;
+    color:#261441;
     font-size: 1.8vw;
 }
+
