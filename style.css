@@ -35,41 +35,52 @@
 
 #beans{
     margin: auto;
-    padding: 100px 0px;
-    background-color: #c6b9b0;
-    
+    /*background-color: #c6b9b0;*/
+    position: relative;
+    margin-top: 0;
+    position: relative;
+    background-color: #fcf5f2;
 }
 
-h1{
+.beans-back{
+    width: 100%;
+}
+
+.beans{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.beans-title{
     font-family: ヒラギノ明朝 ProN;
     color: #331804;
-    margin-bottom: 100px;
+    margin-bottom: 8vw;
     text-align: center;
-    letter-spacing: 10px;
-    font-size: 3vw;
+    letter-spacing: 1vw;
+    font-size: 1.8vw;
 }
 
 
 
 /*豆のdiv*/
-.beans{
-    display: inline-flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
 .bean{
-    width: 30vw;
+    width: 20vw;
     position:relative;  
     text-align: center;
-    margin: 50px 0px;
+    margin: 5vh 0;
 }
 
 .bean img{
-    width:50%;
+    width:10vw;
 }
 
-.index{
+.bean-text{
     position:absolute;
     text-align: center;
     width: 90%;
@@ -83,7 +94,7 @@ h1{
 
     font-family: ヒラギノ角ゴStd W8;
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 1vw;
 }
 
 
@@ -95,21 +106,20 @@ h1{
 
 .title{
     display: block;
-    padding: 100px 0px;
-    margin-left: 10vw;
+    padding: 10vw 0 5vw 20vw;
 }
 
 
-num{
+.title p num{
     font-family: ヒラギノ角ゴStd W8;
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 3vw;
     color: #261441;
 }
 
-p{
+.title p{
     font-family: ヒラギノ明朝 ProN;
-    font-size: 2.3vw;
+    font-size: 1.8vw;
     color: #261441;
 }
 
@@ -123,15 +133,15 @@ p{
 }
 
 
-/*ドリンクのdiv*/
+
 .drink{
-    width: 25%;
+    width: 20vw;
     text-align: center;
     margin: 4vh 4vw;
 }
 
 .drink img{
-    width: 60%;
+    width: 70%;
     padding: 5vh 0;
 }
 
@@ -139,69 +149,164 @@ p{
 .name{
     font-family: ヒラギノ明朝 ProN;
     font-weight: bold;
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     color:#261441;
     margin-bottom: 5px;
 }
 
 .eng{
     font-family: クレー;
-    font-size: 1.3vw;
+    font-size: 1vw;
     color:#261441;
 }
 
 .detail{
+    font-family: クレー;
+    font-size: 1.2vw;
     text-align: left;
     color:#261441;
-    font-size: 1.5vw;
 }
 
 
-.espdrip{
-    height: 30vw;
+.espdrip-img{
+    height: 25vw;
     margin-right: 8vw;
 }
 
 .text{
     text-align: center;
     font-family: クレー;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     color:#261441;
     line-height: 3em;
 }
 
 
+.machine-img{
+    width:  15vw;
+    display: block;
+    margin: 5vw auto;
+}
+
+.step{
+    width: 20vw;
+    text-align: center;
+    margin-top: 10vh;
+    padding: 0 5vw;
+    border-right: #331804 1px solid;
+}
+
+.step3{
+    width: 20vw;
+    text-align: center;
+    margin-top: 10vh;
+    padding: 0 5vw;
+}
+
+
+.step-number{
+    font-family: ヒラギノ角ゴStd W8;
+    font-weight: bold;
+    font-size: 1vw;
+    color: #fcf5f2;
+
+    text-align: center;
+    display: inline-block;
+    
+    height: 5vw;
+    width: 5vw;
+    line-height: 5vw;
+    background: #331804;
+    border-radius: 50%;
+    margin-bottom: 2vh;
+}
+
+.step img{
+    height: 10vw;
+    margin: 5vh 0;
+}
+
+.step3 img{
+    height: 10vw;
+    margin: 5vh 0;
+}
+
+
+
+
+
 .art-box{
-    width: 80vw;
+    width: 60vw;
     display: flex;
     justify-content: center;
     align-items: center;
     border: solid 1px #331804;
-    border-radius: 2vw;
+    border-radius: 1vw;
     margin: 10vh auto 0;
     padding: 3vw;
 }
 
 .art-box img{
-    width: 25vw;
+    width: 15vw;
 }
 
 .art-name{
     font-family: クレー;
     color:#261441;
-    font-size: 2vw;
+    font-size: 1.8vw;
     text-align: center;
     margin-bottom: 2vw;
 }
 
-.latte-art{
+.art-text-right{
+    width: 30vw;
+    margin-left: 8vw;
+}
+
+.art-text-left{
+    width: 30vw;
+    margin-right: 8vw;
+}
+
+
+.latte{
     width: 40vw;
-    margin-left: 5vw;
+    text-align: center;
+    margin: 0 auto 5vh ;
 }
 
-.art-detail{
-    text-align: left;
+.latte img{
+    width: 35%;
+    padding: 5vh 0;
+}
+
+.latte-detail{
+    font-family: クレー;
+    font-size: 1.2vw;
+    text-align: center;
     color:#261441;
-    font-size: 1.8vw;
 }
 
+
+footer{
+    position: relative;
+}
+
+footer img{
+    width: 100%;
+    padding-top: 10vw;
+    background-color: #fcf5f2;
+}
+
+footer p{
+    color: #fcf5f2;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    font-family: クレー;
+    font-size: 1.2vw;
+    
+}
