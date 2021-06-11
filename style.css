@@ -92,14 +92,18 @@
 }
 
 
+.bean:hover{
+    width: 20vw;
+    position:relative;  
+    text-align: center;
+    margin: 1vw 0;
+}
+
 .bean img{
     width:10vw;
 }
 
 
-.bean img:hover{
-    width:13vw;
-}
 
 .bean-text{
     position:absolute;
@@ -118,22 +122,7 @@
     font-size: 1vw;
 }
 
-.bean-text:hover{
-    position:absolute;
-    text-align: center;
-    width: 90%;
-    color: #fcf5f2;
 
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-
-    font-family: ヒラギノ角ゴStd W8;
-    font-weight: bold;
-    font-size: 2vw;
-}
 
 .beans li{
     text-decoration: none;
