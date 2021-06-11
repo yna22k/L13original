@@ -56,15 +56,30 @@
     transform: translate(-50%,-50%);
 }
 
-.beans-title{
-    font-family: ヒラギノ明朝 ProN;
-    color: #331804;
+.beans-title-box{
     margin-bottom: 8vw;
     text-align: center;
-    letter-spacing: 1vw;
-    font-size: 1.8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.beans-title{
+    font-family: ヒラギノ明朝 ProN;
+    font-weight: bold;
+    color: #331804;
+    letter-spacing: 0.8vw;
+    font-size: 2vw;
+}
+
+.text-mame{
+    font-family: ヒラギノ明朝 ProN;
+    font-weight: bold;
+    color: #331804;
+    font-size: 4vw;
+    margin: 0 2vw 0 0.8vw;
+    transform: rotate(15deg);
+}
 
 
 /*豆のdiv*/
@@ -73,11 +88,17 @@
     width: 20vw;
     position:relative;  
     text-align: center;
-    margin: 5vh 0;
+    margin: 4vw 0;
 }
+
 
 .bean img{
     width:10vw;
+}
+
+
+.bean img:hover{
+    width:13vw;
 }
 
 .bean-text{
@@ -97,42 +118,97 @@
     font-size: 1vw;
 }
 
+.bean-text:hover{
+    position:absolute;
+    text-align: center;
+    width: 90%;
+    color: #fcf5f2;
+
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+
+    font-family: ヒラギノ角ゴStd W8;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.beans li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
 
 
 /*セクションタイトル*/
-#number{
+#one{
     background-color: #fcf5f2;
 }
 
-.title{
-    display: block;
-    padding: 10vw 0 5vw 20vw;
+#two{
+    background-color: #fcf5f2;
+}
+#three{
+    background-color: #fcf5f2;
+}
+#four{
+    background-color: #fcf5f2;
+}
+#five{
+    background-color: #fcf5f2;
 }
 
 
-.title p num{
+.title{
+    display: flex;
+    align-items: center;
+    padding: 13vw 0 10vw 23vw;
+}
+
+
+.line {
+    color: #261441; 
+    border-right: 1px solid #331804;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+    width: 6vw;
+    margin-right: 4vw;
+    float: left;
+}
+
+
+.num{
+    transform: skewX(20deg);
     font-family: ヒラギノ角ゴStd W8;
     font-weight: bold;
     font-size: 3vw;
-    color: #261441;
 }
+
 
 .title p{
     font-family: ヒラギノ明朝 ProN;
+    font-weight: bold;
     font-size: 1.8vw;
     color: #261441;
+    letter-spacing: 0.2vw;
+    
 }
-
 
 
 .container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     flex-wrap: wrap;
+    position: relative;
 }
 
-
+/*ドリンクのdiv*/
 
 .drink{
     width: 20vw;
@@ -156,17 +232,20 @@
 
 .eng{
     font-family: クレー;
+    font-weight: bold;
     font-size: 1vw;
     color:#261441;
 }
 
 .detail{
     font-family: クレー;
+    font-weight: bold;
     font-size: 1.2vw;
     text-align: left;
     color:#261441;
 }
 
+/*02espdrip*/
 
 .espdrip-img{
     height: 25vw;
@@ -176,18 +255,73 @@
 .text{
     text-align: center;
     font-family: クレー;
+    font-weight: bold;
     font-size: 1.2vw;
     color:#261441;
     line-height: 3em;
 }
 
 
+/*03マシーン*/
+
+.machine-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.machine-text{
+    width: 18vw;
+}
+
+.machine-name{
+    text-align: center;
+    font-family: ヒラギノ明朝 ProN;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color:#261441;
+    margin-bottom: 2vw;
+    
+}
+
 .machine-img{
     width:  15vw;
     display: block;
-    margin: 5vw auto;
+    margin: 5vw 10vw;
+    
 }
 
+
+.line1{
+    width:0.01px;
+    height: 11vw;
+    border: #331804 0.1px solid;
+    background: #331804;
+    transform: rotate(-80deg);
+    -ms-transform: rotate(-80deg);
+    -webkit-transform: rotate(-80deg);
+    position: absolute;
+    z-index: 1;
+    left: 39%;
+}
+
+.line2{
+    width:0.01px;
+    height: 14vw;
+    border: #331804 0.1px solid;
+    background: #331804;
+    transform: rotate(85deg);
+    -ms-transform: rotate(85deg);
+    -webkit-transform: rotate(85deg);
+    position: absolute;
+    right: 41%;
+    top:24%;
+}
+
+
+/*マシーンのstep*/
 .step{
     width: 20vw;
     text-align: center;
@@ -203,7 +337,6 @@
     padding: 0 5vw;
 }
 
-
 .step-number{
     font-family: ヒラギノ角ゴStd W8;
     font-weight: bold;
@@ -212,13 +345,14 @@
 
     text-align: center;
     display: inline-block;
-    
-    height: 5vw;
-    width: 5vw;
-    line-height: 5vw;
+
+    height: 6vw;
+    width: 6vw;
+    line-height: 6vw;
     background: #331804;
     border-radius: 50%;
     margin-bottom: 2vh;
+
 }
 
 .step img{
@@ -231,12 +365,16 @@
     margin: 5vh 0;
 }
 
+.step-underline{
+    border-bottom: 1px solid #261441;
+}
 
 
 
+/*04ラテアート*/
 
 .art-box{
-    width: 60vw;
+    width: 58vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -252,6 +390,7 @@
 
 .art-name{
     font-family: クレー;
+    font-weight: bold;
     color:#261441;
     font-size: 1.8vw;
     text-align: center;
@@ -259,16 +398,18 @@
 }
 
 .art-text-right{
-    width: 30vw;
-    margin-left: 8vw;
+    width: 28vw;
+    margin-left: 6vw;
 }
 
 .art-text-left{
-    width: 30vw;
-    margin-right: 8vw;
+    width: 28vw;
+    margin-right: 6vw;
 }
 
 
+
+/*05のラテ*/
 .latte{
     width: 40vw;
     text-align: center;
@@ -282,6 +423,7 @@
 
 .latte-detail{
     font-family: クレー;
+    font-weight: bold;
     font-size: 1.2vw;
     text-align: center;
     color:#261441;
