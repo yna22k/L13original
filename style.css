@@ -352,16 +352,18 @@ footer p{
     /*文字*/
     .title{
         padding: 13vw 0 6vw 18vw;}
+    .bean-text{
+        font-size: 12px;}
     .text{
-        line-height: 30px;
-        font-size: 15px;}
+        font-size: 13px;
+        line-height: 30px;}
     .name{
         font-size: 15px;
         margin-bottom: 5px;}
     .eng{
-        font-size: 12px;}
+        font-size: 10px;}
     .detail{
-        font-size: 15px;
+        font-size: 12px;
         padding-left: 30px;
 
     }
@@ -377,8 +379,7 @@ footer p{
         margin: 0.1vw 0;}
     .bean img{
         width: 20vw;}
-    .bean-text{
-        font-size: 1px;}
+
     
     /*ドリンクのdiv*/
     .drink{
