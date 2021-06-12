@@ -7,13 +7,9 @@
 /*ヒーロー画像*/
 .hero{
     position: relative;
-    background-color: #c6b9b0;
-}
-
+    background-color: #c6b9b0;}
 .hero img{
-    width: 100%;
-}
-
+    width: 100%;}
 .hero p {
     position: absolute;
     color: #fcf5f2;
@@ -26,26 +22,18 @@
     transform: translate(-50%,-50%);
 
     font-family: ヒラギノ明朝 ProN;
-    font-size: 3vw;
-}
-
-
+    font-size: 3vw;}
 
 /*豆知識*/
-
 #beans{
     margin: auto;
     /*background-color: #c6b9b0;*/
     position: relative;
     margin-top: 0;
     position: relative;
-    background-color: #fcf5f2;
-}
-
+    background-color: #fcf5f2;}
 .beans-back{
-    width: 100%;
-}
-
+    width: 100%;}
 .beans{
     width: 100%;
     position: absolute;
@@ -53,62 +41,44 @@
     left: 50%;
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-}
-
+    transform: translate(-50%,-50%);}
 .beans-title-box{
     margin-bottom: 8vw;
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
+    align-items: center;}
 .beans-title{
     font-family: ヒラギノ明朝 ProN;
     font-weight: bold;
     color: #331804;
     letter-spacing: 0.8vw;
-    font-size: 2vw;
-}
-
+    font-size: 2vw;}
 .text-mame{
     font-family: ヒラギノ明朝 ProN;
     font-weight: bold;
     color: #331804;
     font-size: 4vw;
     margin: 0 2vw 0 0.8vw;
-    transform: rotate(15deg);
-}
-
+    transform: rotate(15deg);}
 
 /*豆のdiv*/
-
 .bean{
     width: 20vw;
     position:relative;  
     text-align: center;
-    margin: 4vw 0;
-}
-
-
+    margin: 4vw 0;}
 .bean:hover{
     width: 20vw;
     position:relative;  
     text-align: center;
-    margin: 1vw 0;
-}
-
+    margin: 1vw 0;}
 .bean img{
-    width:10vw;
-}
-
-
-
+    width:10vw;}
 .bean-text{
     position:absolute;
     text-align: center;
-    width: 90%;
+    width: 100%;
     color: #fcf5f2;
 
     top: 50%;
@@ -119,46 +89,27 @@
 
     font-family: ヒラギノ角ゴStd W8;
     font-weight: bold;
-    font-size: 1vw;
-}
-
-
-
+    font-size: 1.2vw;}
 .beans li{
     text-decoration: none;
-    list-style-type: none;
-}
-
-
-
-
+    list-style-type: none;}
 
 /*セクションタイトル*/
 #one{
-    background-color: #fcf5f2;
-}
-
+    background-color: #fcf5f2;}
 #two{
-    background-color: #fcf5f2;
-}
+    background-color: #fcf5f2;}
 #three{
-    background-color: #fcf5f2;
-}
+    background-color: #fcf5f2}
 #four{
-    background-color: #fcf5f2;
-}
+    background-color: #fcf5f2;}
 #five{
-    background-color: #fcf5f2;
-}
-
+    background-color: #fcf5f2;}
 
 .title{
     display: flex;
     align-items: center;
-    padding: 13vw 0 10vw 23vw;
-}
-
-
+    padding: 13vw 0 10vw 23vw;}
 .line {
     color: #261441; 
     border-right: 1px solid #331804;
@@ -167,29 +118,21 @@
     transform: skewX(-20deg);
     width: 6vw;
     margin-right: 4vw;
-    float: left;
-}
-
+    float: left;}
 
 .num{
     transform: skewX(20deg);
     font-family: ヒラギノ角ゴStd W8;
     font-weight: bold;
-    font-size: 3vw;
-}
-
-
+    font-size: 3vw;}
 .title p{
     font-family: ヒラギノ明朝 ProN;
     font-weight: bold;
     font-size: 1.8vw;
-    color: #261441;
-    letter-spacing: 0.2vw;
-    
-}
+    color: #261411;
+    letter-spacing: 0.2vw; }
 
-
-.container{
+.container, .mame-list{
     display: flex;
     justify-content: center;
     align-items: top;
@@ -197,63 +140,7 @@
     position: relative;
 }
 
-/*ドリンクのdiv*/
-
-.drink{
-    width: 20vw;
-    text-align: center;
-    margin: 4vh 4vw;
-}
-
-.drink img{
-    width: 70%;
-    padding: 5vh 0;
-}
-
-
-.name{
-    font-family: ヒラギノ明朝 ProN;
-    font-weight: bold;
-    font-size: 1.5vw;
-    color:#261441;
-    margin-bottom: 5px;
-}
-
-.eng{
-    font-family: クレー;
-    font-weight: bold;
-    font-size: 1vw;
-    color:#261441;
-}
-
-.detail{
-    font-family: クレー;
-    font-weight: bold;
-    font-size: 1.2vw;
-    text-align: left;
-    color:#261441;
-}
-
-/*02espdrip*/
-
-.espdrip-img{
-    height: 25vw;
-    margin-right: 8vw;
-}
-
-.text{
-    text-align: center;
-    font-family: クレー;
-    font-weight: bold;
-    font-size: 1.2vw;
-    color:#261441;
-    line-height: 3em;
-}
-
-
-/*03マシーン*/
-
-.machine-box{
+.container02{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,28 +148,64 @@
     position: relative;
 }
 
-.machine-text{
-    width: 18vw;
-}
+/*ドリンクのdiv*/
+.drink{
+    width: 20vw;
+    text-align: center;
+    padding: 4vh 4vw;}
+.drink img{
+    width: 70%;
+    padding: 5vh 0;}
+.name{
+    font-family: ヒラギノ明朝 ProN;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color:#261441;
+    margin-bottom: 5px;}
+.eng{
+    font-family: クレー;
+    font-weight: bold;
+    font-size: 1vw;
+    color:#261411;}
+.detail{
+    font-family: クレー;
+    font-weight: bold;
+    font-size: 1.2vw;
+    text-align: left;
+    color:#261411;}
 
+/*02espdrip*/
+.espdrip-img{
+    height: 25vw;
+    margin-right: 8vw;}
+.text{
+    text-align: center;
+    font-family: クレー;
+    font-weight: bold;
+    font-size: 1.2vw;
+    color:#261411;
+    line-height: 3em;}
+
+/*03マシーン*/
+.machine-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;}
+.machine-text{
+    width: 18vw;}
 .machine-name{
     text-align: center;
     font-family: ヒラギノ明朝 ProN;
     font-weight: bold;
     font-size: 1.5vw;
     color:#261441;
-    margin-bottom: 2vw;
-    
-}
-
+    margin-bottom: 2vw;}
 .machine-img{
     width:  15vw;
     display: block;
-    margin: 5vw 10vw;
-    
-}
-
-
+    margin: 5vw 10vw;}
 .line1{
     width:0.01px;
     height: 11vw;
@@ -293,9 +216,7 @@
     -webkit-transform: rotate(-80deg);
     position: absolute;
     z-index: 1;
-    left: 39%;
-}
-
+    left: 39%;}
 .line2{
     width:0.01px;
     height: 14vw;
@@ -306,9 +227,7 @@
     -webkit-transform: rotate(85deg);
     position: absolute;
     right: 41%;
-    top:24%;
-}
-
+    top:24%;}
 
 /*マシーンのstep*/
 .step{
@@ -316,16 +235,12 @@
     text-align: center;
     margin-top: 10vh;
     padding: 0 5vw;
-    border-right: #331804 1px solid;
-}
-
+    border-right: #331804 1px solid;}
 .step3{
     width: 20vw;
     text-align: center;
     margin-top: 10vh;
-    padding: 0 5vw;
-}
-
+    padding: 0 5vw;}
 .step-number{
     font-family: ヒラギノ角ゴStd W8;
     font-weight: bold;
@@ -340,28 +255,34 @@
     line-height: 6vw;
     background: #331804;
     border-radius: 50%;
-    margin-bottom: 2vh;
-
-}
-
-.step img{
+    margin-bottom: 2vh;}
+.step img, .step3 img{
     height: 10vw;
-    margin: 5vh 0;
-}
-
-.step3 img{
-    height: 10vw;
-    margin: 5vh 0;
-}
-
+    margin: 7vh 0;}
 .step-underline{
-    border-bottom: 1px solid #261441;
-}
-
+    position: relative;
+    border-bottom: 1px solid #261411;}
+.step-underline:before{
+    content:"";
+    position: absolute;
+    border: 10px solid transparent;
+    border-top: 10px solid #fcf5f2;
+    margin-left: -10px;
+    bottom: -19px;
+    left: 50%;
+    z-index: 2;}
+.step-underline:after{
+    content:"";
+    position: absolute;
+    border: 11px solid transparent;
+    border-top: 11px solid #261411;
+    margin-left: -11px;
+    bottom: -22px;
+    left: 50%;
+    z-index: 1;}
 
 
 /*04ラテアート*/
-
 .art-box{
     width: 58vw;
     display: flex;
@@ -370,65 +291,43 @@
     border: solid 1px #331804;
     border-radius: 1vw;
     margin: 10vh auto 0;
-    padding: 3vw;
-}
-
+    padding: 3vw;}
 .art-box img{
-    width: 15vw;
-}
-
+    width: 15vw;}
 .art-name{
     font-family: クレー;
     font-weight: bold;
-    color:#261441;
+    color:#261411;
     font-size: 1.8vw;
     text-align: center;
-    margin-bottom: 2vw;
-}
-
+    margin-bottom: 2vw;}
 .art-text-right{
     width: 28vw;
-    margin-left: 6vw;
-}
-
+    margin-left: 6vw;}
 .art-text-left{
     width: 28vw;
-    margin-right: 6vw;
-}
-
-
+    margin-right: 6vw;}
 
 /*05のラテ*/
 .latte{
     width: 40vw;
     text-align: center;
-    margin: 0 auto 5vh ;
-}
-
+    margin: 0 auto 5vh ;}
 .latte img{
     width: 35%;
-    padding: 5vh 0;
-}
-
+    padding: 5vh 0;}
 .latte-detail{
     font-family: クレー;
     font-weight: bold;
     font-size: 1.2vw;
     text-align: center;
-    color:#261441;
-}
-
-
+    color:#261441;}
 footer{
-    position: relative;
-}
-
+    position: relative;}
 footer img{
     width: 100%;
     padding-top: 10vw;
-    background-color: #fcf5f2;
-}
-
+    background-color: #fcf5f2;}
 footer p{
     color: #fcf5f2;
     position: absolute;
@@ -438,6 +337,114 @@ footer p{
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     font-family: クレー;
-    font-size: 1.2vw;
+    font-size: 1.2vw;}
+
+
+
+@media screen and (max-width : 480px){
+
+    .hero{
+        padding-bottom: 1vw;}
+
+
+        
+
+    /*文字*/
+    .title{
+        padding: 13vw 0 6vw 18vw;}
+    .text{
+        line-height: 30px;
+        font-size: 15px;}
+    .name{
+        font-size: 15px;
+        margin-bottom: 5px;}
+    .eng{
+        font-size: 12px;}
+    .detail{
+        font-size: 15px;
+        padding-left: 30px;
+
+    }
+
+    /*豆知識*/    
+    .beans-title-box{
+        margin-bottom: 2vw;}
+    .bean{
+        width: 30vw;
+        margin: 2vw 0;}
+    .bean:hover{
+        width: 30vw;
+        margin: 0.1vw 0;}
+    .bean img{
+        width: 20vw;}
+    .bean-text{
+        font-size: 1px;}
+    
+    /*ドリンクのdiv*/
+    .drink{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;}
+    .drink img{
+        width: 130px;}
+       
+       
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .espdrip-img{
+       display: block;
+        margin: 0 auto 30px auto;
+        height: 50vw;}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .step, .step3{
+        width: 80%;
+        border-right: none;
+        ;
+    }
+
+    .step img, .step3 img{
+        height: 6em;
+       
+    }
+        
     
 }

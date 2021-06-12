@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src = "main.js"></script>
+
     <title>cafe latte</title>
 </head>
 
@@ -14,8 +17,16 @@
 
 <body>
 
+   
+
     <div class="hero">
-        <img src = "img/hero1.png">
+
+        <div class = "slide">
+            <img src = "img/hero1.png">
+           <!-- <img src = "img/hero2.png">
+            <img src = "img/hero3.png">   -->
+        </div>
+
         <p>お家でのカフェラテの<br>楽しみ方</p>
     </div>
 
@@ -32,7 +43,7 @@
                 <p class = "beans-title">知識</p> 
             </div>
 
-            <div class = "container">
+            <div class = "mame-list">
 
                 <li><a href = "#one">
                 <div class = "bean">
@@ -55,7 +66,7 @@
 
             </div>
 
-            <div class = "container">
+            <div class = "mame-list">
                 <li><a href = "#four"></a>
 
                 <div class = "bean">
@@ -85,16 +96,20 @@
         <div class = "container">
 
             <div class = "drink">
-                <p class = "name">カフェラテ</p>
-                <p class = "eng">Cafe Latte</p>
-                <img src = "img/drink/latte.png">
+                <div>
+                    <p class = "name">カフェラテ</p>
+                    <p class = "eng">Cafe Latte</p>
+                    <img src = "img/drink/latte.png">
+                </div>
                 <p class = "detail">カフェラテは、コーヒーの旨味がぎゅっと凝縮されたエスプレッソに、蒸気で温めたスチームミルクを注いだドリンクです。</p>
             </div>
 
             <div class = "drink">
-                <p class = "name">カフェオレ</p>
-                <p class = "eng">Cafe Au Lait</p>
-                <img src = "img//drink/aulait.png">
+                <div>
+                    <p class = "name">カフェオレ</p>
+                    <p class = "eng">Cafe Au Lait</p>
+                    <img src = "img//drink/aulait.png">
+                </div>
                 <p class = "detail">カフェオレは、いわゆる一般的なコーヒーとホットミルクを1:1の割合で入れたドリンクです。</p>
             </div>
             
@@ -110,7 +125,7 @@
             <p>エスプレッソとコーヒーは、何が違うのでしょうか？</p>
         </div>
 
-        <div class = "container">
+        <div class = "container02">
 
             <img class = "espdrip-img" src = "img/espdrip.png">
          
@@ -173,14 +188,18 @@
 
             <div class = "step">
                 <p class = "step-number">STEP2</p>
-                <p class = "text">ミルクをスチームする</p>
+                <div class = "step-underline">
+                    <p class = "text">ミルクをスチームする</p>
+                </div>
                 <img src = "img/machine/machine_step2.png">
                 <p class = "detail">コーヒーの粉を計量をしてマシンにセット。ボタンを押すだけでエスプレッソが抽出されます。</p>
             </div>
 
             <div class = "step3">
                 <p class = "step-number">STEP3</p>
-                <p class = "text">ミルクをエスプレッソに流し込む</p>
+                <div class = "step-underline">
+                    <p class = "text">ミルクをエスプレッソに流し込む</p>
+                </div>
                 <img src = "img/machine/machine_step3.png">
                 <p class = "detail">コーヒーの粉を計量をしてマシンにセット。ボタンを押すだけでエスプレッソが抽出されます。</p>
             </div>
@@ -209,8 +228,7 @@
         <div class = "art-box">
             <div class = "art-text-left">
                 <p class = "art-name">Leaf</p>
-                <p class = "detail">レイヤーハートが描けるようになったら今度はリーフに挑戦してみましょう。リーフは、綺麗なレイヤーを描くことがカギとなるので、初めはハートで練習を重ねるのがオススメです。
-                </p>
+                <p class = "detail">レイヤーハートが描けるようになったら今度はリーフに挑戦してみましょう。リーフは、綺麗なレイヤーを描くことがカギとなるので、初めはハートで練習を重ねるのがオススメです。</p>
             </div>
             <img src="img/art/leaf.png" >
         </div>
@@ -244,41 +262,53 @@
         <div class = "container">
 
             <div class = "drink">
+                <div>
                 <p class = "name">カプチーノ</p>
                 <p class = "eng">Cappuccino</p>
                 <img src = "img//drink/cappuccino.png">
+                </div>
                 <p class = "detail">フォームミルク（ミルクの泡）の層がカフェラテよりも大きいドリンクです。その分カップに占める液体の量が少ないため、エスプレッソの味わいをより楽しむことができます。</p>
             </div>
 
             <div class = "drink">
+                <div>
                 <p class = "name">カフェモカ</p>
                 <p class = "eng">Cafe Mocha</p>
                 <img src = "img//drink/mocha.png">
+                </div>
                 <p class = "detail">エスプレッソにチョコレートまたはチョコレートソースを溶かしたドリンクです。チョコレートの甘さが欲しくなった時は、是非お試しください。</p>
             </div>
 
             <div class = "drink">
+                <div>
                 <p class = "name">ソイラテ</p>
                 <p class = "eng">Soy Latte</p>
                 <img src = "img//drink/soy.png">
+                </div>
                 <p class = "detail">カフェラテのミルクを、ソイミルクに変更しただけのドリンクです。カフェラテよりもマイルドな味わいで、カロリーも抑えることができます。</p>
             </div>
             <div class = "drink">
+                <div>
                 <p class = "name">塩キャラメルラテ</p>
                 <p class = "eng">Salt Caramel Latte</p>
                 <img src = "img//drink/salt.png">
+                </div>
                 <p class = "detail">エスプレッソにキャラメルソースと塩を溶かした甘じょっぱい味わいのドリンクです。キャラメルのほろ苦さと甘さ、塩のしょっぱさが絶妙にマッチします。</p>
             </div>
             <div class = "drink">
+                <div>
                 <p class = "name">マキアート</p>
                 <p class = "eng">Macchiato</p>
                 <img src = "img//drink/macchiato.png">
+                </div>
                 <p class = "detail">エスプレッソに、同量のミルクを注いだドリンクです。ミルクの量が少ないのでエスプレッソの味わいがとても濃く感じられます。</p>
             </div>
             <div class = "drink">
+                <div>
                 <p class = "name">エスプレッソコンパンナ</p>
                 <p class = "eng">Espresso Con Panna</p>
                 <img src = "img//drink/conpanna.png">
+                </div>
                 <p class = "detail">エスプレッソの上にホイップクリームを乗せた、デザート感覚で楽しむことのできるドリンクです。味の濃いエスプレッソに、クリームの優しさが溶け込みます。</p>
             </div>
 
