@@ -24,6 +24,50 @@
     font-family: ヒラギノ明朝 ProN;
     font-size: 3vw;}
 
+/*文字*/
+.text-mame{
+    font-family: ヒラギノ明朝 ProN;
+    font-weight: bold;
+    color: #331804;
+    font-size: 4vw;
+    margin: 0 2vw 0 0.8vw;
+    transform: rotate(15deg);}
+.bean-text{
+    position:absolute;
+    text-align: center;
+    width: 100%;
+    color: #fcf5f2;
+
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+
+    font-family: ヒラギノ角ゴStd W8;
+    font-weight: bold;
+    font-size: 1.2vw;}
+.name{
+    font-family: ヒラギノ明朝 ProN;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color:#261411;
+    margin-bottom: 5px;}
+.eng{
+    font-family: クレー;
+    font-weight: bold;
+    font-size: 1vw;
+    color:#261411;}
+.detail{
+    font-family: クレー;
+    font-weight: bold;
+    font-size: 1.2vw;
+    text-align: left;
+    color:#261411;}
+
+
+
+
 /*豆知識*/
 #beans{
     margin: auto;
@@ -54,13 +98,7 @@
     color: #331804;
     letter-spacing: 0.8vw;
     font-size: 2vw;}
-.text-mame{
-    font-family: ヒラギノ明朝 ProN;
-    font-weight: bold;
-    color: #331804;
-    font-size: 4vw;
-    margin: 0 2vw 0 0.8vw;
-    transform: rotate(15deg);}
+
 
 /*豆のdiv*/
 .bean{
@@ -75,21 +113,6 @@
     margin: 1vw 0;}
 .bean img{
     width:10vw;}
-.bean-text{
-    position:absolute;
-    text-align: center;
-    width: 100%;
-    color: #fcf5f2;
-
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-
-    font-family: ヒラギノ角ゴStd W8;
-    font-weight: bold;
-    font-size: 1.2vw;}
 .beans li{
     text-decoration: none;
     list-style-type: none;}
@@ -156,23 +179,7 @@
 .drink img{
     width: 70%;
     padding: 5vh 0;}
-.name{
-    font-family: ヒラギノ明朝 ProN;
-    font-weight: bold;
-    font-size: 1.5vw;
-    color:#261441;
-    margin-bottom: 5px;}
-.eng{
-    font-family: クレー;
-    font-weight: bold;
-    font-size: 1vw;
-    color:#261411;}
-.detail{
-    font-family: クレー;
-    font-weight: bold;
-    font-size: 1.2vw;
-    text-align: left;
-    color:#261411;}
+
 
 /*02espdrip*/
 .espdrip-img{
@@ -353,20 +360,34 @@ footer p{
     .title{
         padding: 13vw 0 6vw 18vw;}
     .bean-text{
-        font-size: 12px;}
+        font-family: ヒラギノ角ゴStd W8;
+        font-weight: bold;
+        font-size: 10px;}
     .text{
+        font-family: クレー;
+        font-weight: bold;
+        color:#261411;
         font-size: 13px;
         line-height: 30px;}
     .name{
+        font-family: クレー;
+        font-weight: bold;
+        color:#261411;
         font-size: 15px;
         margin-bottom: 5px;}
     .eng{
+        font-family: クレー;
+        font-weight: bold;
+        color:#261411;
         font-size: 10px;}
     .detail{
+        font-family: クレー;
+        font-weight: bold;
+        color:#261411;
         font-size: 12px;
         padding-left: 30px;
-
     }
+
 
     /*豆知識*/    
     .beans-title-box{
