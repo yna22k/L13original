@@ -449,7 +449,7 @@ footer p{
         transform: rotate(-80deg);
         -ms-transform: rotate(-80deg);
         -webkit-transform: rotate(-80deg);
-        bottom: 31%;
+        top: 50%;
         left: 30%;}
     .line2{
         width:0.01px;
