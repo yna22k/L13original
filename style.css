@@ -218,7 +218,7 @@ margin-bottom: 5px;}
     position: absolute;
     z-index: 1;
     top: 32%;
-    left: 39.2%;}
+    left: 39.3%;}
 .line2{
     width:0.01px;
     height: 14vw;
@@ -228,7 +228,7 @@ margin-bottom: 5px;}
     -ms-transform: rotate(85deg);
     -webkit-transform: rotate(85deg);
     position: absolute;
-    right: 41%;
+    right: 41.5%;
     top:24%;}
 
 /*マシーンのstep*/
