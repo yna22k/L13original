@@ -396,11 +396,9 @@ footer p{
     .step-text{
         font-size: 13px;
         padding: 10px 0;}
-
-
-        .art-name{
-        font-size: 14px;
-        margin-bottom: 2vw;}
+    .art-name{
+    font-size: 15px;
+    margin-bottom: 2vw;}
     .latte-detail{
         font-size: 12px;
         text-align: left;}
