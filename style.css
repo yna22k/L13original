@@ -25,8 +25,11 @@
     font-family: ヒラギノ明朝 ProN;
     font-size: 3vw;
     font-weight: vold;}
-  
 
+#one, #two, #three, #four, #five{
+    background-color: #fcf5f2;
+    padding: 15vw 0 5vw 0;}
+    
 /*文字*/
 .text-mame{
     font-family: ヒラギノ明朝 ProN;
@@ -59,7 +62,7 @@
 .title{
     display: flex;
     align-items: center;
-    padding: 0 0 10vw 23vw;}
+    padding: 0 0 5vw 23vw;}
 .line {
     color: #261411; 
     border-right: 1px solid #331804;
@@ -150,10 +153,6 @@ margin-bottom: 5px;}
     text-decoration: none;
     list-style-type: none;}
 
-/*セクションタイトル*/
-#one, #two, #three, #four, #five{
-    background-color: #fcf5f2;
-    padding: 10vw 0;}
 
 .container, .mame-list{
     display: flex;
@@ -170,11 +169,15 @@ margin-bottom: 5px;}
 }
 
 /*ドリンクのdiv*/
+.drink01{
+    width: 20vw;
+    text-align: center;
+    padding: 0 4vw;}
 .drink{
     width: 20vw;
     text-align: center;
-    padding: 4vh 4vw;}
-.drink img{
+    padding: 8vh 4vw;}
+.drink img, .drink01 img{
     width: 70%;
     padding: 5vh 0;}
 
@@ -287,7 +290,7 @@ margin-bottom: 5px;}
     align-items: center;
     border: solid 1px #331804;
     border-radius: 1vw;
-    margin: 12vh auto 0;
+    margin: 5vw auto 0;
     padding: 3vw;}
 .art-box img{
     width: 15vw;}
