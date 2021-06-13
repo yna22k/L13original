@@ -25,8 +25,7 @@
     font-family: ヒラギノ明朝 ProN;
     font-size: 3vw;
     font-weight: vold;}
-
-    
+  
 
 /*文字*/
 .text-mame{
@@ -179,12 +178,10 @@ margin-bottom: 5px;}
     width: 70%;
     padding: 5vh 0;}
 
-
 /*02espdrip*/
 .espdrip-img{
     height: 25vw;
     margin-right: 8vw;}
-
 
 /*03マシーン*/
 .machine-box{
@@ -194,7 +191,8 @@ margin-bottom: 5px;}
     flex-wrap: wrap;
     position: relative;}
 .machine-text{
-    width: 18vw;}
+    width: 20vw;
+    margin: 0 2vw}
 .machine-name{
     text-align: center;
     font-family: ヒラギノ明朝 ProN;
@@ -216,7 +214,8 @@ margin-bottom: 5px;}
     -webkit-transform: rotate(-80deg);
     position: absolute;
     z-index: 1;
-    left: 39%;}
+    top: 32%;
+    left: 39.2%;}
 .line2{
     width:0.01px;
     height: 14vw;
@@ -246,10 +245,8 @@ margin-bottom: 5px;}
     font-weight: bold;
     font-size: 1vw;
     color: #fcf5f2;
-
     text-align: center;
     display: inline-block;
-
     height: 6vw;
     width: 6vw;
     line-height: 6vw;
@@ -290,7 +287,7 @@ margin-bottom: 5px;}
     align-items: center;
     border: solid 1px #331804;
     border-radius: 1vw;
-    margin: 10vh auto 0;
+    margin: 12vh auto 0;
     padding: 3vw;}
 .art-box img{
     width: 15vw;}
