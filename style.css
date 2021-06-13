@@ -393,7 +393,12 @@ footer p{
         font-size: 10px;}
     .detail{
         font-size: 12px;}
-    .art-name{
+    .step-text{
+        font-size: 13px;
+        padding: 10px 0;}
+
+
+        .art-name{
         font-size: 14px;
         margin-bottom: 2vw;}
     .latte-detail{
@@ -468,8 +473,6 @@ footer p{
         width: 50px;
         line-height: 50px;
         margin-bottom: 2vh;}
-    .step-text{
-        padding: 10px 0;}
     .step-underline{
         width: 60%;
         display: block;
@@ -485,7 +488,8 @@ footer p{
         width: 70%;
         display: block;
         text-align: center;
-        padding: 30px 10px;}
+        padding: 60px 10px;
+        margin: 60px auto 0;}
     .art-box img{
         width: 100px;
         margin: 20px 0;}
