@@ -52,38 +52,39 @@
 
     font-family: ヒラギノ角ゴStd W8;
     font-weight: bold;
-    font-size: 1.2vw;}
+    font-size: 1.3vw;}
 .beans-title{
     font-family: ヒラギノ明朝 ProN;
     font-weight: bold;
     color: #331804;
     letter-spacing: 0.8vw;
     font-size: 2vw;}
-.title{
-    display: flex;
-    align-items: center;
-    padding: 0 0 5vw 23vw;}
-.line {
-    color: #261411; 
-    border-right: 1px solid #331804;
-    -webkit-transform: skewX(-20deg);
-    -moz-transform: skewX(-20deg);
-    transform: skewX(-20deg);
-    width: 6vw;
-    margin-right: 4vw;
-    float: left;}
-
-.num{
-transform: skewX(20deg);
-font-family: ヒラギノ角ゴStd W8;
-font-weight: bold;
-font-size: 3vw;}
-.title p{
+    /*セクションタイトル*/
+    .title{
+        display: flex;
+        align-items: center;
+        padding: 0 0 5vw 23vw;}
+    .line {
+        color: #261411; 
+        border-right: 1px solid #331804;
+        -webkit-transform: skewX(-20deg);
+        -moz-transform: skewX(-20deg);
+        transform: skewX(-20deg);
+        width: 6vw;
+        margin-right: 4vw;
+        float: left;}
+    .num{
+    transform: skewX(20deg);
+    font-family: ヒラギノ角ゴStd W8;
+    font-weight: bold;
+    font-size: 3vw;}
+    .title p{
     font-family: ヒラギノ明朝 ProN;
     font-weight: bold;
     font-size: 1.8vw;
     color: #261411;
     letter-spacing: 0.2vw; }
+    /*ここまで*/
 .name{
 font-family: ヒラギノ明朝 ProN;
 font-weight: bold;
@@ -108,7 +109,7 @@ margin-bottom: 5px;}
     font-size: 1.2vw;
     color:#261411;
     line-height: 3em;}
-
+/*ここまで*/
 
 /*豆知識*/
 #beans{
@@ -123,18 +124,17 @@ margin-bottom: 5px;}
 .beans{
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);}
 .beans-title-box{
-    margin-bottom: 8vw;
+    padding-bottom: 20px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;}
-
 
 /*豆のdiv*/
 .bean{
@@ -148,11 +148,10 @@ margin-bottom: 5px;}
     text-align: center;
     margin: 1vw 0;}
 .bean img{
-    width:10vw;}
+    width:13vw;}
 .beans li{
     text-decoration: none;
     list-style-type: none;}
-
 
 .container, .mame-list{
     display: flex;
@@ -165,8 +164,7 @@ margin-bottom: 5px;}
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    position: relative;
-}
+    position: relative;}
 
 /*ドリンクのdiv*/
 .drink01{
@@ -181,12 +179,12 @@ margin-bottom: 5px;}
     width: 70%;
     padding: 5vh 0;}
 
-/*02espdrip*/
+/*02 espdrip*/
 .espdrip-img{
     height: 25vw;
     margin-right: 8vw;}
 
-/*03マシーン*/
+/*03 machine*/
 .machine-box{
     display: flex;
     justify-content: center;
@@ -231,7 +229,7 @@ margin-bottom: 5px;}
     right: 41.5%;
     top:24%;}
 
-/*マシーンのstep*/
+/*03 step*/
 .step{
     width: 20vw;
     text-align: center;
@@ -281,8 +279,7 @@ margin-bottom: 5px;}
     left: 50%;
     z-index: 1;}
 
-
-/*04ラテアート*/
+/*04 latte art*/
 .art-box{
     width: 58vw;
     display: flex;
@@ -308,7 +305,7 @@ margin-bottom: 5px;}
     width: 28vw;
     margin-right: 6vw;}
 
-/*05のラテ*/
+/*05 latte*/
 .latte{
     width: 40vw;
     text-align: center;
@@ -341,13 +338,11 @@ footer p{
     font-family: クレー;
     font-size: 1.2vw;}
 
-
 .sp-on{
     height: 0;
     padding: 0;
     overflow: hidden;
-    opacity: 0;
-}
+    opacity: 0;}
 
 
 @media screen and (max-width : 480px){
@@ -362,13 +357,18 @@ footer p{
     .sp-off{
         display: none;}
 
-  
     #one, #two, #three, #four, #five{
         background-color: #fcf5f2;
         padding: 25vw 0 0 0;}
 
     /*文字*/
-   
+    .beans-title{
+        letter-spacing: 0.8vw;
+        font-size: 14px;}
+    .text-mame{
+        font-size: 28px;
+        margin: 0 2vw 0 0.8vw;
+        transform: rotate(15deg);}
     .bean-text{
         font-size: 10px;}
     .title{
@@ -398,10 +398,7 @@ footer p{
         margin-bottom: 2vw;}
     .latte-detail{
         font-size: 12px;
-        text-align: left;
-    }
-
-
+        text-align: left;}
 
     /*豆知識*/    
     .beans-title-box{
@@ -416,25 +413,25 @@ footer p{
         width: 20vw;}
     
     /*ドリンクのdiv*/
-    .drink, .latte{
+    .drink, .drink01, .latte{
         display: flex;
         justify-content: center;
         align-items: center;
         width: 80vw;}
-    .drink img, .latte img{
+    .drink img, .drink01 img, .latte img{
         width: 130px;}
-    .drink div, .latte div{
+    .drink div, .drink01 div, .latte div{
         padding-right: 30px;}
-       
-    /*espdrip*/   
+    .latte{
+        margin: 30px auto 5vh ;}
+
+    /*02 espdrip*/   
     .espdrip-img{
         display: block;
         margin: 50px auto ;
         height: 300px;}
     
-
-    /*machine*/
-  
+    /*03 machine*/
     .machine-text{
         width: 8vw;}
     .machine-name{
@@ -463,13 +460,7 @@ footer p{
         right: 34%;
         top :36%;}    
 
-
-
-
-
-
-
-    /*step*/
+    /*03 step*/
     .step-number{
         font-size: 10px;
         height: 50px;
@@ -488,7 +479,7 @@ footer p{
     .step img, .step3 img{
         height: 6em;}
   
-    /*art*/ 
+    /*04 latte art*/ 
     .art-box{
         width: 70%;
         display: block;
@@ -501,11 +492,7 @@ footer p{
         width: 90%;
         margin: 0 auto;}
 
-    /*05latte*/
-    .latte{
-        margin: 30px auto 5vh ;}
-    
-
+  
     footer p{
         font-size: 10px;}
         
