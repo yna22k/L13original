@@ -7,7 +7,8 @@
 /*ヒーロー画像*/
 .hero{
     position: relative;
-    background-color: #c6b9b0;}
+    padding: 0;
+    background-color: #c1b4ab;}
 .hero img{
     width: 100%;}
 .hero p {
@@ -22,7 +23,10 @@
     transform: translate(-50%,-50%);
 
     font-family: ヒラギノ明朝 ProN;
-    font-size: 3vw;}
+    font-size: 3vw;
+    font-weight: vold;}
+
+    
 
 /*文字*/
 .text-mame{
@@ -47,12 +51,43 @@
     font-family: ヒラギノ角ゴStd W8;
     font-weight: bold;
     font-size: 1.2vw;}
-.name{
+.beans-title{
     font-family: ヒラギノ明朝 ProN;
     font-weight: bold;
-    font-size: 1.5vw;
-    color:#261411;
-    margin-bottom: 5px;}
+    color: #331804;
+    letter-spacing: 0.8vw;
+    font-size: 2vw;}
+.title{
+    display: flex;
+    align-items: center;
+    padding: 0 0 10vw 23vw;}
+.line {
+    color: #261411; 
+    border-right: 1px solid #331804;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+    width: 6vw;
+    margin-right: 4vw;
+    float: left;}
+
+.num{
+transform: skewX(20deg);
+font-family: ヒラギノ角ゴStd W8;
+font-weight: bold;
+font-size: 3vw;}
+.title p{
+    font-family: ヒラギノ明朝 ProN;
+    font-weight: bold;
+    font-size: 1.8vw;
+    color: #261411;
+    letter-spacing: 0.2vw; }
+.name{
+font-family: ヒラギノ明朝 ProN;
+font-weight: bold;
+font-size: 1.5vw;
+color:#261411;
+margin-bottom: 5px;}
 .eng{
     font-family: クレー;
     font-weight: bold;
@@ -64,20 +99,25 @@
     font-size: 1.2vw;
     text-align: left;
     color:#261411;}
-
-
+.text, .step-text{
+    text-align: center;
+    font-family: クレー;
+    font-weight: bold;
+    font-size: 1.2vw;
+    color:#261411;
+    line-height: 3em;}
 
 
 /*豆知識*/
 #beans{
+    background-color: #fcf5f2;
     margin: auto;
-    /*background-color: #c6b9b0;*/
     position: relative;
     margin-top: 0;
-    position: relative;
-    background-color: #fcf5f2;}
+    position: relative;}
 .beans-back{
-    width: 100%;}
+    width: 100%;
+    background-color: #fcf5f2}
 .beans{
     width: 100%;
     position: absolute;
@@ -92,12 +132,6 @@
     display: flex;
     justify-content: center;
     align-items: center;}
-.beans-title{
-    font-family: ヒラギノ明朝 ProN;
-    font-weight: bold;
-    color: #331804;
-    letter-spacing: 0.8vw;
-    font-size: 2vw;}
 
 
 /*豆のdiv*/
@@ -118,51 +152,16 @@
     list-style-type: none;}
 
 /*セクションタイトル*/
-#one{
-    background-color: #fcf5f2;}
-#two{
-    background-color: #fcf5f2;}
-#three{
-    background-color: #fcf5f2}
-#four{
-    background-color: #fcf5f2;}
-#five{
-    background-color: #fcf5f2;}
-
-.title{
-    display: flex;
-    align-items: center;
-    padding: 13vw 0 10vw 23vw;}
-.line {
-    color: #261441; 
-    border-right: 1px solid #331804;
-    -webkit-transform: skewX(-20deg);
-    -moz-transform: skewX(-20deg);
-    transform: skewX(-20deg);
-    width: 6vw;
-    margin-right: 4vw;
-    float: left;}
-
-.num{
-    transform: skewX(20deg);
-    font-family: ヒラギノ角ゴStd W8;
-    font-weight: bold;
-    font-size: 3vw;}
-.title p{
-    font-family: ヒラギノ明朝 ProN;
-    font-weight: bold;
-    font-size: 1.8vw;
-    color: #261411;
-    letter-spacing: 0.2vw; }
+#one, #two, #three, #four, #five{
+    background-color: #fcf5f2;
+    padding: 10vw 0;}
 
 .container, .mame-list{
     display: flex;
     justify-content: center;
     align-items: top;
     flex-wrap: wrap;
-    position: relative;
-}
-
+    position: relative;}
 .container02{
     display: flex;
     justify-content: center;
@@ -185,13 +184,7 @@
 .espdrip-img{
     height: 25vw;
     margin-right: 8vw;}
-.text{
-    text-align: center;
-    font-family: クレー;
-    font-weight: bold;
-    font-size: 1.2vw;
-    color:#261411;
-    line-height: 3em;}
+
 
 /*03マシーン*/
 .machine-box{
@@ -207,7 +200,7 @@
     font-family: ヒラギノ明朝 ProN;
     font-weight: bold;
     font-size: 1.5vw;
-    color:#261441;
+    color:#261411;
     margin-bottom: 2vw;}
 .machine-img{
     width:  15vw;
@@ -319,7 +312,7 @@
 .latte{
     width: 40vw;
     text-align: center;
-    margin: 0 auto 5vh ;}
+    margin: 0 auto 4vh ;}
 .latte img{
     width: 35%;
     padding: 5vh 0;}
@@ -328,7 +321,9 @@
     font-weight: bold;
     font-size: 1.2vw;
     text-align: center;
-    color:#261441;}
+    color:#261411;}
+
+/*footer*/
 footer{
     position: relative;}
 footer img{
@@ -347,46 +342,65 @@ footer p{
     font-size: 1.2vw;}
 
 
+.sp-on{
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+
 
 @media screen and (max-width : 480px){
 
-    .hero{
-        padding-bottom: 1vw;}
 
 
-        
+    .sp-on{
+        height: auto;
+        padding: auto;
+        opacity: 1;
+        opacity: 1;}
+    .sp-off{
+        display: none;}
+
+  
+    #one, #two, #three, #four, #five{
+        background-color: #fcf5f2;
+        padding: 25vw 0 0 0;}
 
     /*文字*/
-    .title{
-        padding: 13vw 0 6vw 18vw;}
+   
     .bean-text{
-        font-family: ヒラギノ角ゴStd W8;
-        font-weight: bold;
         font-size: 10px;}
+    .title{
+        padding: 0 30px 60px 30px;}
+    .line {
+        border-right: 1px solid #331804;
+        width: 6vw;
+        margin-right: 20px;
+        padding-right: 20px;}
+    .num{
+        font-size: 23px;}
+    .title p{
+        font-size: 16px;
+        letter-spacing: 2px; }
     .text{
-        font-family: クレー;
-        font-weight: bold;
-        color:#261411;
-        font-size: 13px;
+        font-size: 12px;
         line-height: 30px;}
     .name{
-        font-family: クレー;
-        font-weight: bold;
-        color:#261411;
         font-size: 15px;
         margin-bottom: 5px;}
     .eng{
-        font-family: クレー;
-        font-weight: bold;
-        color:#261411;
         font-size: 10px;}
     .detail{
-        font-family: クレー;
-        font-weight: bold;
-        color:#261411;
+        font-size: 12px;}
+    .art-name{
+        font-size: 14px;
+        margin-bottom: 2vw;}
+    .latte-detail{
         font-size: 12px;
-        padding-left: 30px;
+        text-align: left;
     }
+
 
 
     /*豆知識*/    
@@ -400,48 +414,54 @@ footer p{
         margin: 0.1vw 0;}
     .bean img{
         width: 20vw;}
-
     
     /*ドリンクのdiv*/
-    .drink{
+    .drink, .latte{
         display: flex;
         justify-content: center;
         align-items: center;
         width: 80vw;}
-    .drink img{
+    .drink img, .latte img{
         width: 130px;}
+    .drink div, .latte div{
+        padding-right: 30px;}
        
-       
-
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    /*espdrip*/   
     .espdrip-img{
-       display: block;
-        margin: 0 auto 30px auto;
-        height: 50vw;}
+        display: block;
+        margin: 50px auto ;
+        height: 300px;}
     
 
+    /*machine*/
+  
+    .machine-text{
+        width: 8vw;}
+    .machine-name{
+        -ms-writing-mode: tb-rl;
+	    writing-mode: vertical-rl;
+        text-align: center; 
+        font-size: 3vw;
+        margin: 0 auto;}
+    .machine-img{
+        width:  40vw;
+        margin: 12vw 10vw 8vw 10vw;}
+    .line1{
+        width:0.01px;
+        height: 12vw;
+        transform: rotate(-80deg);
+        -ms-transform: rotate(-80deg);
+        -webkit-transform: rotate(-80deg);
+        bottom: 31%;
+        left: 30%;}
+    .line2{
+        width:0.01px;
+        height: 24vw;
+        transform: rotate(85deg);
+        -ms-transform: rotate(85deg);
+        -webkit-transform: rotate(85deg);
+        right: 34%;
+        top :36%;}    
 
 
 
@@ -449,24 +469,48 @@ footer p{
 
 
 
-
-
-
-
-
-
-
-
+    /*step*/
+    .step-number{
+        font-size: 10px;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        margin-bottom: 2vh;}
+    .step-text{
+        padding: 10px 0;}
+    .step-underline{
+        width: 60%;
+        display: block;
+        margin: auto;}
     .step, .step3{
-        width: 80%;
-        border-right: none;
-        ;
-    }
-
+    width: 80%;
+    border-right: none;}
     .step img, .step3 img{
-        height: 6em;
-       
-    }
+        height: 6em;}
+  
+    /*art*/ 
+    .art-box{
+        width: 70%;
+        display: block;
+        text-align: center;
+        padding: 30px 10px;}
+    .art-box img{
+        width: 100px;
+        margin: 20px 0;}
+    .art-text-right, .art-text-left{
+        width: 90%;
+        margin: 0 auto;}
+
+    /*05latte*/
+    .latte{
+        margin: 30px auto 5vh ;}
+    
+
+    footer p{
+        font-size: 10px;}
         
+
+
+    
     
 }
