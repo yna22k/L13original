@@ -433,7 +433,8 @@ footer p{
     
     /*03 machine*/
     .machine-text{
-        width: 8vw;}
+        width: 8vw;
+        margin: 5vw 1vw 0}
     .machine-name{
         -ms-writing-mode: tb-rl;
 	    writing-mode: vertical-rl;
@@ -445,12 +446,12 @@ footer p{
         margin: 12vw 10vw 8vw 10vw;}
     .line1{
         width:0.01px;
-        height: 12vw;
+        height: 16vw;
         transform: rotate(-80deg);
         -ms-transform: rotate(-80deg);
         -webkit-transform: rotate(-80deg);
-        top: 50%;
-        left: 30%;}
+        top: 46%;
+        left: 28.5%;}
     .line2{
         width:0.01px;
         height: 24vw;
