@@ -433,7 +433,7 @@ footer p{
     /*02 espdrip*/   
     .espdrip-img{
         display: block;
-        margin: 50px auto ;
+        margin: 0 auto 60px ;
         height: 300px;}
     
     /*03 machine*/
@@ -472,7 +472,7 @@ footer p{
         height: 50px;
         width: 50px;
         line-height: 50px;
-        margin-bottom: 2vh;}
+        margin-bottom: 8spx;}
     .step-underline{
         width: 60%;
         display: block;
@@ -481,7 +481,8 @@ footer p{
     width: 80%;
     border-right: none;}
     .step img, .step3 img{
-        height: 6em;}
+        height: 6em;
+        margin: 40px 0 30px;}
   
     /*04 latte art*/ 
     .art-box{
