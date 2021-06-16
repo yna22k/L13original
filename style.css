@@ -26,21 +26,80 @@
     font-size: 3vw;
     font-weight: vold;}
 
-.slideshow{
-    position: relative;
-    width: 100%;
+.bx-wrapper{
+    background: none !important; 
+    box-shadow: none !important;
+    border: none !important;
+    margin-bottom: 0 !important;
 }
 
-.slideshow img{
-    position: absolute;
-    opacity: 0;
-    transition: 1s;
-}
 
-.slideshow .show{
-    opacity: 1;
+.scrolldown{
     z-index: 1;
+    /*描画位置※位置は適宜調整してください*/
+	position:fixed;
+	right:5%;
+    /*矢印の動き1秒かけて永遠にループ*/
+	animation: arrowmove 1.2s ease-in-out infinite;
 }
+
+@keyframes arrowmove{
+    0%{top:90%;}
+    50%{top:91%;}
+   100%{top:92%;}
+}
+
+.scrolldown span{
+    /*描画位置*/
+	position: absolute;
+	left:-20px;
+	bottom:15px;
+    /*テキストの形状*/
+	color: #fcf5f2;
+	font-size: 1vw;
+	letter-spacing: 0.05em;
+	/*縦書き設定*/
+	-ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+
+.scrolldown:before {
+    content: "";
+    /*描画位置*/
+    position: absolute;
+    bottom: 0;
+    right: -6px;
+    /*矢印の形状*/
+    width: 1px;
+    height: 20px;
+    background: #fcf5f2;
+    transform: skewX(-31deg);
+}
+
+.scrolldown:after{
+	content:"";
+    /*描画位置*/
+	position: absolute;
+	bottom:0;
+	right:0;
+    /*矢印の形状*/
+	width:1px;
+	height: 100px;
+	background:#fcf5f2;
+}
+
+.ColorScroll{
+    z-index: 1;
+    /*描画位置※位置は適宜調整してください*/
+	position:fixed;
+	right:5%;
+    /*矢印の動き1秒かけて永遠にループ*/
+	animation: arrowmove 1.2s ease-in-out infinite;
+    color: #261411 !important;
+}
+
+
 
 #one, #two, #three, #four, #five{
     background-color: #fcf5f2;
@@ -359,6 +418,33 @@ footer p{
     padding: 0;
     overflow: hidden;
     opacity: 0;}
+
+
+    .fadeUpTrigger{
+        opacity: 0;
+        }
+        .fadeUp {
+            animation-name: fadeUpAnime;
+            animation-duration:2s;
+            animation-fill-mode:forwards;
+            opacity: 0;
+        }
+        @keyframes fadeUpAnime{
+        from {
+            opacity: 0;
+            transform: translateY(100px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+
+
+
+
+
+
 
 
 @media screen and (max-width : 480px){
