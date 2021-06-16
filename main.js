@@ -14,13 +14,11 @@ $(document).ready(function(){
   const sliderHeight = $(".color-change").height();
   if (sliderHeight - 30 < $(this).scrollTop()) {
       $(".scrolldown span").addClass("ColorScroll");
-      $(".scrolldown:before").addClass("ColorScroll");
-      $(".scrolldown:after").addClass("ColorScroll");
+      $(".scrolldown").addClass("ColorScroll");
 
   } else {
       $(".scrolldown span").removeClass("ColorScroll");
-      $(".scrolldown:before").removeClass("ColorScroll")
-      $(".scrolldown:after").removeClass("ColorScroll")
+      $(".scrolldown").removeClass("ColorScroll")
   }
   });
   });
