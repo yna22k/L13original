@@ -256,7 +256,7 @@ margin-bottom: 5px;}
 .drink{
     width: 20vw;
     text-align: center;
-    padding: 4vh 4vw;}
+    padding: 1vh 4vw;}
 .drink img, .drink01 img{
     width: 70%;
     padding: 5vh 0;}
@@ -391,7 +391,7 @@ margin-bottom: 5px;}
 .latte{
     width: 40vw;
     text-align: center;
-    margin: 0 auto 2vh ;}
+    margin: 0 auto 0.5vh ;}
 .latte img{
     width: 35%;
     padding: 5vh 0;}
