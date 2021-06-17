@@ -56,7 +56,7 @@
 	color: #fcf5f2;
     font-family: クレー;
     font-weight: bold;
-	font-size: 15px;
+	font-size: 1.2vw;
 	letter-spacing: 0.05em;
 	/*縦書き設定*/
 	-ms-writing-mode: tb-rl;
@@ -89,12 +89,24 @@
 	background:#fcf5f2;
 }
 
-.scrolldown.ColorScroll:after,.scrolldown.ColorScroll:before{
+.scrolldown.ColorScroll:after,
+.scrolldown.ColorScroll:before{
     background: #261411;
 }
 .scrolldown.ColorScroll span{
     color: #261411;
 }
+
+
+.scrolldown.FadeScroll:after,
+.scrolldown.FadeScroll:before{
+    opacity: 0;
+}
+.scrolldown.FadeScroll span{
+    opacity: 0;
+}
+
+
 
 #one, #two, #three, #four, #five{
     background-color: #fcf5f2;
@@ -244,7 +256,7 @@ margin-bottom: 5px;}
 .drink{
     width: 20vw;
     text-align: center;
-    padding: 8vh 4vw;}
+    padding: 4vh 4vw;}
 .drink img, .drink01 img{
     width: 70%;
     padding: 5vh 0;}
@@ -379,7 +391,7 @@ margin-bottom: 5px;}
 .latte{
     width: 40vw;
     text-align: center;
-    margin: 0 auto 4vh ;}
+    margin: 0 auto 2vh ;}
 .latte img{
     width: 35%;
     padding: 5vh 0;}
