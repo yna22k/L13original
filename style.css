@@ -256,7 +256,7 @@ margin-bottom: 5px;}
 .drink{
     width: 20vw;
     text-align: center;
-    padding: 1vh 4vw;}
+    padding: 6vh 4vw;}
 .drink img, .drink01 img{
     width: 70%;
     padding: 5vh 0;}
@@ -391,7 +391,7 @@ margin-bottom: 5px;}
 .latte{
     width: 40vw;
     text-align: center;
-    margin: 0 auto 0.5vh ;}
+    margin: 0 auto 3vh ;}
 .latte img{
     width: 35%;
     padding: 5vh 0;}
@@ -502,13 +502,14 @@ footer p{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 80vw;}
+        width: 80vw;
+        padding: 1vh 4vw}
     .drink img, .drink01 img, .latte img{
         width: 130px;}
     .drink div, .drink01 div, .latte div{
         padding-right: 30px;}
     .latte{
-        margin: 30px auto 5vh ;}
+        margin: 30px auto 0.5vh ;}
 
     /*02 espdrip*/   
     .espdrip-img{
